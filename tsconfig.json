@@ -4,6 +4,7 @@
     "allowJs": true,
     "allowNonTsExtensions": true,
     "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
     "jsx": "react",
     "reactNamespace": "React",
     "module": "ESNext",

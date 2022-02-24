@@ -1,8 +1,8 @@
 import React from 'react';
 import { ColorScheme } from './types';
 
-export default (props: { scheme: ColorScheme }) => {
-  const color = props.scheme === 'light' ? 'black' : 'white';
+export const Logo = (props: { scheme: ColorScheme }) => {
+  const color = props.scheme === 'light' ? 'black' : 'white'
 
   return (
     <svg
@@ -199,5 +199,7 @@ export default (props: { scheme: ColorScheme }) => {
         fillOpacity="0.5"
       />
     </svg>
-  );
-};
+  )
+}
+
+export default Logo

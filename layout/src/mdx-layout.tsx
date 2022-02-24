@@ -1,22 +1,22 @@
-import React from 'react';
-import 'react-native';
-import { Provider as ThemeProvider } from 'react-native-paper';
+import React from 'react'
+import 'react-native'
+import { Provider as ThemeProvider } from 'react-native-paper'
 import {
   CssLayout,
-  getInitialColorScheme,
-} from '@divriots/dockit-react/mdx-layout-css';
-import { Playground } from '@divriots/dockit-react/playground';
-import { Showcases } from '@divriots/dockit-react/showcases';
-import { createTheme } from '~/theme';
-import './icons.css';
-import './layout.css';
-import { ColorScheme } from './types';
-import Logo from './Logo';
+  getInitialColorScheme
+} from '@divriots/dockit-react/mdx-layout-css'
+import { Playground } from '@divriots/dockit-react/playground'
+import { Showcases } from '@divriots/dockit-react/showcases'
+import { createTheme } from '~/theme'
+import './icons.css'
+import './layout.css'
+import { ColorScheme } from './types'
+import Logo from './Logo'
 
-export const Layout = (props) => {
+export const Layout = props => {
   const [scheme, setScheme] = React.useState<ColorScheme>(
     getInitialColorScheme()
-  );
+  )
 
   return (
     <ThemeProvider theme={createTheme(scheme)}>
@@ -31,5 +31,5 @@ export const Layout = (props) => {
         {...props}
       />
     </ThemeProvider>
-  );
-};
+  )
+}
