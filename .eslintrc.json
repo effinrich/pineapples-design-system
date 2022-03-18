@@ -1,7 +1,9 @@
 {
   "root": true,
   "parser": "@typescript-eslint/parser",
-  "ignorePatterns": ["**/*"],
+  "ignorePatterns": [
+    "**/*"
+  ],
   "extends": [
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
@@ -9,7 +11,11 @@
     "standard",
     "prettier"
   ],
-  "plugins": ["@typescript-eslint", "react", "react-native"],
+  "plugins": [
+    "@typescript-eslint",
+    "react",
+    "react-native"
+  ],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -35,13 +41,14 @@
     "jest": false,
     "it": false
   },
-
   "rules": {
-    "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
+    "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": [
       "warn",
-      { "enableDangerousAutofixThisMayCauseInfiniteLoops": true }
-    ], // Checks effect dependencies
+      {
+        "enableDangerousAutofixThisMayCauseInfiniteLoops": true
+      }
+    ],
     "import/no-duplicates": "error",
     "comma-dangle": 0,
     "multiline-ternary": 0,
@@ -56,7 +63,10 @@
   },
   "overrides": [
     {
-      "files": ["*.ts", "*.tsx"],
+      "files": [
+        "*.ts",
+        "*.tsx"
+      ],
       "rules": {
         "@typescript-eslint/ban-ts-ignore": 0,
         "@typescript-eslint/ban-ts-comment": 0,
@@ -72,7 +82,10 @@
       }
     },
     {
-      "files": ["*.js", "*.jsx"],
+      "files": [
+        "*.js",
+        "*.jsx"
+      ],
       "rules": {}
     }
   ]
