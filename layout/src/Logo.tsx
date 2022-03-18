@@ -7,7 +7,7 @@ export const Logo = (props: { scheme: ColorScheme }) => {
   const color = props.scheme === 'light' ? 'black' : 'white'
 
   return (
-    <div style={{ height: 125 }}>
+    <div style={{ height: 50 }}>
       <LogoSVG width="20%" />
     </div>
   )
