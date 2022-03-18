@@ -50,10 +50,21 @@ const colors = {
     dark: '#FFFFFF80',
     description: 'color for backdrops of various components such as modals'
   },
-  card: {
+  notification: {
+    light: '#E85B2D',
+    dark: '#E85B2D',
+    description: 'background color for badges'
+  },
+  surface: {
     light: '#F8F9FA',
     dark: '#FFFFFF',
-    description: 'background color for cards'
+    description:
+      'background color for elements containing content, such as cards'
+  },
+  onSurface: {
+    light: '#rgba(0,0,0,0.7)',
+    dark: '#rgba(0,0,0,0.7)',
+    description: 'background color for snackbars'
   },
   border: {
     light: '#868E96',
