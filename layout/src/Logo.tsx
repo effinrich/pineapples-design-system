@@ -1,7 +1,8 @@
 import React from 'react'
 
-import { LogoSVG } from '../../LogoSVG'
 import { ColorScheme } from './types'
+
+import { LogoSVG } from '../../logoSVG'
 
 export const Logo = (props: { scheme: ColorScheme }) => {
   const color = props.scheme === 'light' ? 'black' : 'white'
