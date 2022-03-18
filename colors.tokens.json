@@ -1,0 +1,47 @@
+{
+  "colors": {
+    "tokenset": "global",
+    "accent": {
+      "base": {
+        "type": "color",
+        "value": "#F8C307"
+      },
+      "bright": {
+        "type": "color",
+        "value": "#FFD63B"
+      },
+      "lower": {
+        "type": "color",
+        "value": "#A48105"
+      },
+      "lowest": {
+        "type": "color",
+        "value": "#776002"
+      }
+    },
+    "bg": {
+      "base": {
+        "type": "color",
+        "value": "#F9FAFB"
+      },
+      "highlight": {
+        "type": "color",
+        "value": "#353535"
+      }
+    },
+    "text": {
+      "base": {
+        "type": "color",
+        "value": "#EDEDED"
+      },
+      "dark": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "lower": {
+        "type": "color",
+        "value": "#AAAAAA"
+      }
+    }
+  }
+}
