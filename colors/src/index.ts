@@ -1,69 +1,89 @@
 const colors = {
   primary: {
-    light: '#6200EE',
-    dark: '#648DAE',
-    description: 'primary color for your app, usually your brand color',
+    light: '#E85B2D',
+    dark: '#ff8c59',
+    description: 'primary color for your app, usually your brand color'
   },
   accent: {
-    light: '#03DAC4',
-    dark: '#388E3C',
+    light: '#2EA7FF',
+    dark: '#76d8ff',
     description:
-      'secondary color for your app which complements the primary color',
+      'secondary color for your app which complements the primary color'
   },
   background: {
-    light: '#F6F6F6',
+    light: '#f8f9fb',
     dark: '#262626',
-    description: 'background color for pages, such as lists',
-  },
-  surface: {
-    light: '#FFFFFF',
-    dark: '#121212',
-    description:
-      'background color for elements containing content, such as cards',
+    description: 'background color for pages, such as lists'
   },
   text: {
-    light: '#000000',
-    dark: '#FFFFFF',
-    description: 'text color for content',
+    light: '#262626',
+    dark: '#CED4DA',
+    description: 'text color for content'
   },
   disabled: {
-    light: '#00000042',
-    dark: '#FFFFFF42',
-    description: 'color for disabled elements',
+    light: '#E9ECEF',
+    dark: '#E9ECEF',
+    description: 'color for disabled elements'
   },
   placeholder: {
-    light: '#00000042',
-    dark: '#FFFFFF42',
-    description: 'color for placeholder text, such as input placeholder',
+    light: '#868E96',
+    dark: '#868E96',
+    description: 'color for placeholder text, such as input placeholder'
+  },
+  success: {
+    light: '#34C759',
+    dark: '#34C759',
+    description: 'success color for toasts and tags'
+  },
+  warning: {
+    light: '#F5B700',
+    dark: '#F5B700',
+    description: 'warning color for toasts and tags'
+  },
+  error: {
+    light: '#DD4267',
+    dark: '#DD4267',
+    description: 'error or danger color for toasts and tags'
   },
   backdrop: {
-    light: '#00000080',
+    light: '#868E96',
     dark: '#FFFFFF80',
-    description: 'color for backdrops of various components such as modals',
-  },
-  onSurface: {
-    light: '#000000',
-    dark: '#FFFFFF80',
-    description: 'background color for snackbars',
+    description: 'color for backdrops of various components such as modals'
   },
   notification: {
-    light: '#F50057',
-    dark: '#F57C00',
-    description: 'background color for badges',
+    light: '#E85B2D',
+    dark: '#E85B2D',
+    description: 'background color for badges'
   },
-};
+  surface: {
+    light: '#F8F9FA',
+    dark: '#FFFFFF',
+    description:
+      'background color for elements containing content, such as cards'
+  },
+  onSurface: {
+    light: '#rgba(0,0,0,0.7)',
+    dark: '#rgba(0,0,0,0.7)',
+    description: 'background color for snackbars'
+  },
+  border: {
+    light: '#868E96',
+    dark: '#F57C00',
+    description: 'background color for badges'
+  }
+}
 
 export const light = Object.keys(colors).reduce(
   (acc, c) => ({ ...acc, [c]: colors[c].light }),
   {}
-);
+)
 
 export const dark = Object.keys(colors).reduce(
   (acc, c) => ({ ...acc, [c]: colors[c].dark }),
   {}
-);
+)
 
 export const description = Object.keys(colors).reduce(
   (acc, c) => ({ ...acc, [c]: colors[c].description }),
   {}
-);
+)
