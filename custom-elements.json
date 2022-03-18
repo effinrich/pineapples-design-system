@@ -1,0 +1,2465 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "activity-indicator/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "activity-indicator/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "ActivityIndicator",
+          "declaration": {
+            "name": "ActivityIndicator",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "activity-indicator/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "animated"
+        },
+        {
+          "kind": "function",
+          "name": "still"
+        },
+        {
+          "kind": "function",
+          "name": "small"
+        },
+        {
+          "kind": "function",
+          "name": "large"
+        },
+        {
+          "kind": "function",
+          "name": "size_64"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "activity-indicator/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "animated",
+          "declaration": {
+            "name": "animated",
+            "module": "activity-indicator/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "still",
+          "declaration": {
+            "name": "still",
+            "module": "activity-indicator/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "small",
+          "declaration": {
+            "name": "small",
+            "module": "activity-indicator/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "large",
+          "declaration": {
+            "name": "large",
+            "module": "activity-indicator/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "size_64",
+          "declaration": {
+            "name": "size_64",
+            "module": "activity-indicator/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "animation/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "animation/src/index.ts",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "animation",
+          "type": {
+            "text": "object"
+          },
+          "default": "{\n  scale: 2.0,\n}"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "animation",
+          "declaration": {
+            "name": "animation",
+            "module": "animation/src/index.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "appbar/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "appbar/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Appbar",
+          "declaration": {
+            "name": "Appbar",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "appbar/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "appbar"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "appbar/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "appbar",
+          "declaration": {
+            "name": "appbar",
+            "module": "appbar/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "badge/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "badge/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Badge",
+          "declaration": {
+            "name": "Badge",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "badge/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "badge_with_content"
+        },
+        {
+          "kind": "function",
+          "name": "badge_without_content"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "badge/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "badge_with_content",
+          "declaration": {
+            "name": "badge_with_content",
+            "module": "badge/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "badge_without_content",
+          "declaration": {
+            "name": "badge_without_content",
+            "module": "badge/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "banner/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "banner/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Banner",
+          "declaration": {
+            "name": "Banner",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "banner/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "banner"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "banner/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "banner",
+          "declaration": {
+            "name": "banner",
+            "module": "banner/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "bottom-navigation/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "bottom-navigation/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "BottomNavigation",
+          "declaration": {
+            "name": "BottomNavigation",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "bottom-navigation/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "Bottom_Navigation"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "bottom-navigation/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "Bottom_Navigation",
+          "declaration": {
+            "name": "Bottom_Navigation",
+            "module": "bottom-navigation/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "button/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "button/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Button",
+          "declaration": {
+            "name": "Button",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "button/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "text"
+        },
+        {
+          "kind": "function",
+          "name": "outlined"
+        },
+        {
+          "kind": "function",
+          "name": "contained"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "button/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "text",
+          "declaration": {
+            "name": "text",
+            "module": "button/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "outlined",
+          "declaration": {
+            "name": "outlined",
+            "module": "button/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "contained",
+          "declaration": {
+            "name": "contained",
+            "module": "button/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "card/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "card/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Card",
+          "declaration": {
+            "name": "Card",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "card/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "card"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "card/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "card",
+          "declaration": {
+            "name": "card",
+            "module": "card/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "checkbox/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "checkbox/src/checkbox.tsx",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Checkbox",
+          "declaration": {
+            "name": "Checkbox",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "checkbox/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Checkbox",
+          "declaration": {
+            "name": "Checkbox",
+            "module": "./checkbox"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "checkbox/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "checkbox"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "checkbox/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "checkbox",
+          "declaration": {
+            "name": "checkbox",
+            "module": "checkbox/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "chip/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "chip/src/chip.tsx",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Chip",
+          "declaration": {
+            "name": "Chip",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "chip/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Chip",
+          "declaration": {
+            "name": "Chip",
+            "module": "./chip"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "chip/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "flat"
+        },
+        {
+          "kind": "function",
+          "name": "outlined"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "chip/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "flat",
+          "declaration": {
+            "name": "flat",
+            "module": "chip/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "outlined",
+          "declaration": {
+            "name": "outlined",
+            "module": "chip/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "colors/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "colors/src/index.ts",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "light"
+        },
+        {
+          "kind": "variable",
+          "name": "dark"
+        },
+        {
+          "kind": "variable",
+          "name": "description"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "light",
+          "declaration": {
+            "name": "light",
+            "module": "colors/src/index.ts"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "dark",
+          "declaration": {
+            "name": "dark",
+            "module": "colors/src/index.ts"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "description",
+          "declaration": {
+            "name": "description",
+            "module": "colors/src/index.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "data-table/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "data-table/src/data-table.tsx",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "DataTable",
+          "declaration": {
+            "name": "DataTable",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "data-table/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "DataTable",
+          "declaration": {
+            "name": "DataTable",
+            "module": "./data-table"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "data-table/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "data_table"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "data-table/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "data_table",
+          "declaration": {
+            "name": "data_table",
+            "module": "data-table/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dialog/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dialog/src/dialog.tsx",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Dialog",
+          "declaration": {
+            "name": "Dialog",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dialog/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Dialog",
+          "declaration": {
+            "name": "Dialog",
+            "module": "./dialog"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "dialog/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "dialog"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "dialog/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "dialog",
+          "declaration": {
+            "name": "dialog",
+            "module": "dialog/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "drawer/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "drawer/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Drawer",
+          "declaration": {
+            "name": "Drawer",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "drawer/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "drawer"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "drawer/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "drawer",
+          "declaration": {
+            "name": "drawer",
+            "module": "drawer/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "fab/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "fab/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "FAB",
+          "declaration": {
+            "name": "FAB",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "fab/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "fab"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "fab/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "fab",
+          "declaration": {
+            "name": "fab",
+            "module": "fab/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "fonts/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "fonts/src/index.ts",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "fontConfig",
+          "type": {
+            "text": "object"
+          },
+          "default": "{\n  web: {\n    regular: {\n      fontFamily: 'Roboto, \"Helvetica Neue\", Helvetica, Arial, sans-serif',\n      fontWeight: '400' as '400',\n    },\n    medium: {\n      fontFamily: 'Roboto, \"Helvetica Neue\", Helvetica, Arial, sans-serif',\n      fontWeight: '500' as '500',\n    },\n    light: {\n      fontFamily: 'Roboto, \"Helvetica Neue\", Helvetica, Arial, sans-serif',\n      fontWeight: '300' as '300',\n    },\n    thin: {\n      fontFamily: 'Roboto, \"Helvetica Neue\", Helvetica, Arial, sans-serif',\n      fontWeight: '100' as '100',\n    },\n  },\n  ios: {\n    regular: {\n      fontFamily: 'System, Roboto, sans-serif',\n      fontWeight: '400' as '400',\n    },\n    medium: {\n      fontFamily: 'System, Roboto, sans-serif',\n      fontWeight: '500' as '500',\n    },\n    light: {\n      fontFamily: 'System, Roboto, sans-serif',\n      fontWeight: '300' as '300',\n    },\n    thin: {\n      fontFamily: 'System, Roboto, sans-serif',\n      fontWeight: '100' as '100',\n    },\n  },\n  default: {\n    regular: {\n      fontFamily: 'sans-serif',\n      fontWeight: '400' as '400',\n    },\n    medium: {\n      fontFamily: 'sans-serif',\n      fontWeight: '500' as '500',\n    },\n    light: {\n      fontFamily: 'sans-serif',\n      fontWeight: '300' as '300',\n    },\n    thin: {\n      fontFamily: 'sans-serif',\n      fontWeight: '100' as '100',\n    },\n  },\n}"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "fontConfig",
+          "declaration": {
+            "name": "fontConfig",
+            "module": "fonts/src/index.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "helper-text/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "helper-text/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "HelperText",
+          "declaration": {
+            "name": "HelperText",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "helper-text/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "helper_text"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "helper-text/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "helper_text",
+          "declaration": {
+            "name": "helper_text",
+            "module": "helper-text/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "icon-button/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "icon-button/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "IconButton",
+          "declaration": {
+            "name": "IconButton",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "icon-button/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "icon_button"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "icon-button/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "icon_button",
+          "declaration": {
+            "name": "icon_button",
+            "module": "icon-button/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "layout/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/mdx-layout"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/story-layout"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "layout/src/Logo.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "Logo",
+          "parameters": [
+            {
+              "name": "props",
+              "type": {
+                "text": "{ scheme: ColorScheme }"
+              }
+            }
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Logo",
+          "declaration": {
+            "name": "Logo",
+            "module": "layout/src/Logo.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "Logo",
+            "module": "layout/src/Logo.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "layout/src/mdx-layout.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "Layout",
+          "parameters": [
+            {
+              "name": "props"
+            }
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Layout",
+          "declaration": {
+            "name": "Layout",
+            "module": "layout/src/mdx-layout.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "layout/src/story-layout.tsx",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "storyLayout",
+          "type": {
+            "text": "object"
+          },
+          "default": "{\n  decorators: [\n    (Story) => (\n      <View style={{ padding: '1rem' }}>\n        <ThemeProvider theme={createTheme('light')}>\n          <Story />\n        </ThemeProvider>\n      </View>\n    )\n  ],\n  parameters: {\n    layout: 'centered',\n  },\n}"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "storyLayout",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "layout/src/story-layout.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "layout/src/types.ts",
+      "declarations": [],
+      "exports": []
+    },
+    {
+      "kind": "javascript-module",
+      "path": "list/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "list/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "List",
+          "declaration": {
+            "name": "List",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "list/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "accordion"
+        },
+        {
+          "kind": "function",
+          "name": "accordion_group"
+        },
+        {
+          "kind": "function",
+          "name": "list_icon"
+        },
+        {
+          "kind": "function",
+          "name": "list_items"
+        },
+        {
+          "kind": "function",
+          "name": "list_section"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "list/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "accordion",
+          "declaration": {
+            "name": "accordion",
+            "module": "list/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "accordion_group",
+          "declaration": {
+            "name": "accordion_group",
+            "module": "list/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "list_icon",
+          "declaration": {
+            "name": "list_icon",
+            "module": "list/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "list_items",
+          "declaration": {
+            "name": "list_items",
+            "module": "list/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "list_section",
+          "declaration": {
+            "name": "list_section",
+            "module": "list/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "menu/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "menu/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Menu",
+          "declaration": {
+            "name": "Menu",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "menu/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "menu"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "menu/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "menu",
+          "declaration": {
+            "name": "menu",
+            "module": "menu/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "modal/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "modal/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Modal",
+          "declaration": {
+            "name": "Modal",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "modal/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "modal"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "modal/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "modal",
+          "declaration": {
+            "name": "modal",
+            "module": "modal/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "progress-bar/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "progress-bar/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "ProgressBar",
+          "declaration": {
+            "name": "ProgressBar",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "progress-bar/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "progress_bar"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "progress-bar/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "progress_bar",
+          "declaration": {
+            "name": "progress_bar",
+            "module": "progress-bar/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "radio-button/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "radio-button/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "RadioButton",
+          "declaration": {
+            "name": "RadioButton",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "radio-button/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "radio_button"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "radio-button/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "radio_button",
+          "declaration": {
+            "name": "radio_button",
+            "module": "radio-button/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "roundness/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "roundness/src/index.ts",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "roundness",
+          "type": {
+            "text": "number"
+          },
+          "default": "4"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "roundness",
+          "declaration": {
+            "name": "roundness",
+            "module": "roundness/src/index.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "search-bar/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "search-bar/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Searchbar",
+          "declaration": {
+            "name": "Searchbar",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "search-bar/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "search_bar"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "search-bar/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "search_bar",
+          "declaration": {
+            "name": "search_bar",
+            "module": "search-bar/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "showcases/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "showcases/src/AnimationShowcase.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "AnimationShowcase"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "AnimationShowcase",
+          "declaration": {
+            "name": "AnimationShowcase",
+            "module": "showcases/src/AnimationShowcase.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "showcases/src/ColorsShowcase.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "ColorsShowcase",
+          "parameters": [
+            {
+              "name": "{\n  colorScheme,\n}",
+              "type": {
+                "text": "{\n  colorScheme: 'light' | 'dark';\n}"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "function",
+          "name": "ThemeColorsShowcase"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "ColorsShowcase",
+          "declaration": {
+            "name": "ColorsShowcase",
+            "module": "showcases/src/ColorsShowcase.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "ThemeColorsShowcase",
+          "declaration": {
+            "name": "ThemeColorsShowcase",
+            "module": "showcases/src/ColorsShowcase.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "showcases/src/FontShowcase.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "FontShowcase",
+          "parameters": [
+            {
+              "name": "{ definitions }"
+            }
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "FontShowcase",
+          "declaration": {
+            "name": "FontShowcase",
+            "module": "showcases/src/FontShowcase.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "showcases/src/index.tsx",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "ColorsShowcase",
+          "declaration": {
+            "name": "ColorsShowcase",
+            "module": "./ColorsShowcase"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "ThemeColorsShowcase",
+          "declaration": {
+            "name": "ThemeColorsShowcase",
+            "module": "./ColorsShowcase"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "FontShowcase",
+          "declaration": {
+            "name": "FontShowcase",
+            "module": "./FontShowcase"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "AnimationShowcase",
+          "declaration": {
+            "name": "AnimationShowcase",
+            "module": "./AnimationShowcase"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "snackbar/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "snackbar/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Snackbar",
+          "declaration": {
+            "name": "Snackbar",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "snackbar/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "snackbar"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "snackbar/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "snackbar",
+          "declaration": {
+            "name": "snackbar",
+            "module": "snackbar/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "surface/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "surface/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Surface",
+          "declaration": {
+            "name": "Surface",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "surface/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "surface"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "surface/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "surface",
+          "declaration": {
+            "name": "surface",
+            "module": "surface/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "switch/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "switch/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Switch",
+          "declaration": {
+            "name": "Switch",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "switch/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "switch_component"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "switch/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "switch_component",
+          "declaration": {
+            "name": "switch_component",
+            "module": "switch/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "text-input/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "text-input/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "TextInput",
+          "declaration": {
+            "name": "TextInput",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "text-input/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "flat_text_input"
+        },
+        {
+          "kind": "function",
+          "name": "outlined_text_input"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "text-input/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "flat_text_input",
+          "declaration": {
+            "name": "flat_text_input",
+            "module": "text-input/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "outlined_text_input",
+          "declaration": {
+            "name": "outlined_text_input",
+            "module": "text-input/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "theme/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "theme/src/index.ts",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "createTheme",
+          "parameters": [
+            {
+              "name": "colorScheme",
+              "default": "'light'",
+              "type": {
+                "text": "'light' | 'dark'"
+              }
+            }
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "createTheme",
+          "declaration": {
+            "name": "createTheme",
+            "module": "theme/src/index.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "theme/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "light"
+        },
+        {
+          "kind": "function",
+          "name": "dark"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "light",
+          "declaration": {
+            "name": "light",
+            "module": "theme/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "dark",
+          "declaration": {
+            "name": "dark",
+            "module": "theme/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "toggle-button/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "toggle-button/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "ToggleButton",
+          "declaration": {
+            "name": "ToggleButton",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "toggle-button/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "toggle_button"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "toggle-button/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "toggle_button",
+          "declaration": {
+            "name": "toggle_button",
+            "module": "toggle-button/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "touchable-ripple/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "touchable-ripple/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "TouchableRipple",
+          "declaration": {
+            "name": "TouchableRipple",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "touchable-ripple/stories/index.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "toggle_button"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "touchable-ripple/stories/index.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "toggle_button",
+          "declaration": {
+            "name": "toggle_button",
+            "module": "touchable-ripple/stories/index.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "typography/index.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "*",
+          "declaration": {
+            "name": "*",
+            "package": "./src/index"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "typography/src/index.ts",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Text",
+          "declaration": {
+            "name": "Text",
+            "package": "react-native-paper"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "Title",
+          "declaration": {
+            "name": "Title",
+            "package": "react-native-paper"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "Subheading",
+          "declaration": {
+            "name": "Subheading",
+            "package": "react-native-paper"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "Paragraph",
+          "declaration": {
+            "name": "Paragraph",
+            "package": "react-native-paper"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "Headline",
+          "declaration": {
+            "name": "Headline",
+            "package": "react-native-paper"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "Caption",
+          "declaration": {
+            "name": "Caption",
+            "package": "react-native-paper"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "typography/stories/typography.stories.tsx",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "text"
+        },
+        {
+          "kind": "function",
+          "name": "title"
+        },
+        {
+          "kind": "function",
+          "name": "subheading"
+        },
+        {
+          "kind": "function",
+          "name": "paragraph"
+        },
+        {
+          "kind": "function",
+          "name": "headline"
+        },
+        {
+          "kind": "function",
+          "name": "caption"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "name": "storyLayout",
+            "module": "typography/stories/typography.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "text",
+          "declaration": {
+            "name": "text",
+            "module": "typography/stories/typography.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "title",
+          "declaration": {
+            "name": "title",
+            "module": "typography/stories/typography.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "subheading",
+          "declaration": {
+            "name": "subheading",
+            "module": "typography/stories/typography.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "paragraph",
+          "declaration": {
+            "name": "paragraph",
+            "module": "typography/stories/typography.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "headline",
+          "declaration": {
+            "name": "headline",
+            "module": "typography/stories/typography.stories.tsx"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "caption",
+          "declaration": {
+            "name": "caption",
+            "module": "typography/stories/typography.stories.tsx"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "sd.config.js",
+      "declarations": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "default",
+          "declaration": {
+            "module": "sd.config.js"
+          }
+        }
+      ]
+    }
+  ]
+}
