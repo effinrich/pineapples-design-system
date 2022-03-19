@@ -13,22 +13,20 @@ const DialogShowcase = () => {
   const hideDialog = () => setVisible(false);
 
   return (
-    <>
-      <Provider>
-        <Button onPress={showDialog}>Show Dialog</Button>
-        <Portal>
-          <Dialog visible={visible} onDismiss={hideDialog} style={{ width: '15rem' }}>
-            <Dialog.Title>Alert</Dialog.Title>
-            <Dialog.Content>
-              <Paragraph>This is simple dialog</Paragraph>
-            </Dialog.Content>
-            <Dialog.Actions>
-              <Button onPress={hideDialog}>Done</Button>
-            </Dialog.Actions>
-          </Dialog>
-        </Portal>
-      </Provider>
-    </>
+    <Provider>
+      <Button onPress={showDialog}>Show Dialog</Button>
+      <Portal>
+        <Dialog visible={visible} onDismiss={hideDialog} style={{ width: '15rem' }}>
+          <Dialog.Title>Alert</Dialog.Title>
+          <Dialog.Content>
+            <Paragraph>This is simple dialog</Paragraph>
+          </Dialog.Content>
+          <Dialog.Actions>
+            <Button onPress={hideDialog}>Done</Button>
+          </Dialog.Actions>
+        </Dialog>
+      </Portal>
+    </Provider>
   );
 };
 

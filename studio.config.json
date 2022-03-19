@@ -3,16 +3,7 @@
     "dir": "",
     "menu": [
       "introduction",
-      [
-        "tokens",
-        [
-          "colors",
-          "fonts",
-          "roundness",
-          "animation",
-          "theme"
-        ]
-      ],
+      ["tokens", ["colors", "fonts", "roundness", "animation", "theme"]],
       [
         "components",
         [
@@ -32,6 +23,7 @@
           "helper-text",
           "icon-button",
           "list",
+          "logoSVG",
           "menu",
           "modal",
           "progress-bar",
@@ -46,13 +38,7 @@
           "typography"
         ]
       ],
-      [
-        "dockit",
-        [
-          "layout",
-          "showcases"
-        ]
-      ]
+      ["dockit", ["layout", "showcases"]]
     ]
   }
 }

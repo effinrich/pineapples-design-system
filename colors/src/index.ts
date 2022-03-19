@@ -1,4 +1,4 @@
-const colors = {
+export const colors = {
   primary: {
     light: '#E85B2D',
     dark: '#E85B2D',
@@ -30,21 +30,6 @@ const colors = {
     dark: '#868E96',
     description: 'color for placeholder text, such as input placeholder'
   },
-  // success: {
-  //   light: '#34C759',
-  //   dark: '#34C759',
-  //   description: 'success color for toasts and tags'
-  // },
-  // warning: {
-  //   light: '#F5B700',
-  //   dark: '#F5B700',
-  //   description: 'warning color for toasts and tags'
-  // },
-  // error: {
-  //   light: '#DD4267',
-  //   dark: '#DD4267',
-  //   description: 'error or danger color for toasts and tags'
-  // },
   backdrop: {
     light: '#868E96',
     dark: '#FFFFFF80',
@@ -66,11 +51,6 @@ const colors = {
     dark: '#rgba(0,0,0,0.7)',
     description: 'background color for snackbars'
   }
-  // border: {
-  //   light: '#868E96',
-  //   dark: '#F57C00',
-  //   description: 'background color for badges'
-  // }
 }
 
 export const light = Object.keys(colors).reduce(

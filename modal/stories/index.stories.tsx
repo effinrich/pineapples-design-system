@@ -1,4 +1,4 @@
-import React from 'react';;
+import React from 'react';
 import { Modal } from '@divriots/starter-origami/modal';
 import { Button } from '@divriots/starter-origami/button';
 import { Provider, Portal } from 'react-native-paper';
