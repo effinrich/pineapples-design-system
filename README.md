@@ -1,5 +1,3 @@
-![alt text](<Vatom_Logo.png>)
-
 [Vatom](https://www.vatom.com) Design System, using [Paper](https://reactnativepaper.com) component library: an open source components library based on [Material Design](https://material.io/design).
 
 ## Features

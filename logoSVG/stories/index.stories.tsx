@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Badge } from '@divriots/starter-origami/badge'
+import { LogoSVG } from './'
 import { storyLayout } from '@divriots/starter-origami/layout'
 
 export default storyLayout
