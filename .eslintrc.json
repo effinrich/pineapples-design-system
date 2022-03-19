@@ -16,31 +16,6 @@
     "react",
     "react-native"
   ],
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "project": "./tsconfig.base.json"
-  },
-  "settings": {
-    "react": {
-      "pragma": "React",
-      "version": "detect"
-    }
-  },
-  "globals": {
-    "__DEV__": false,
-    "jasmine": false,
-    "beforeAll": false,
-    "afterAll": false,
-    "beforeEach": false,
-    "afterEach": false,
-    "test": false,
-    "expect": false,
-    "describe": false,
-    "jest": false,
-    "it": false
-  },
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": [
