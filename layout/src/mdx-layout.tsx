@@ -1,35 +1,35 @@
 import React from 'react'
 import 'react-native'
-import { Provider as ThemeProvider } from 'react-native-paper'
+import { useColorMode, NativeBaseProvider } from 'native-base'
 import {
   CssLayout,
-  getInitialColorScheme
 } from '@divriots/dockit-react/mdx-layout-css'
 import { Playground } from '@divriots/dockit-react/playground'
 import { Showcases } from '@divriots/dockit-react/showcases'
-import { createTheme } from '~/theme'
+
+import { customTheme } from '~/theme'
+import { Logo } from '~/Logo'
+
 import './icons.css'
 import './layout.css'
-import { ColorScheme } from './types'
-import Logo from './Logo'
+
+
 
 export const Layout = props => {
-  const [scheme, setScheme] = React.useState<ColorScheme>(
-    getInitialColorScheme()
-  )
+  const { colorMode, toggleColorMode } = useColorMode()
 
   return (
-    <ThemeProvider theme={createTheme(scheme)}>
+    <NativeBaseProvider theme={customTheme}>
       <CssLayout
         components={{ Playground, Showcases }}
-        onSwitch={setScheme}
+        onSwitch={colorMode}
         logo={
           <div style={{ width: '130px', height: '35px' }}>
-            <Logo scheme={scheme} />
+            <Logo size='md'/>
           </div>
         }
         {...props}
       />
-    </ThemeProvider>
+    </NativeBaseProvider>
   )
 }
