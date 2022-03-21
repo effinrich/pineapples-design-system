@@ -2,13 +2,15 @@
   "compilerOptions": {
     "target": "ESNext",
     "allowJs": true,
+    "checkJs": true,
     "allowNonTsExtensions": true,
-    "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
     "jsx": "react",
     "reactNamespace": "React",
     "module": "ESNext",
     "moduleResolution": "Node",
+    "sourceMap": true,
     "baseUrl": ".",
     "outDir": "./dist",
     "paths": {

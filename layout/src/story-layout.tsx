@@ -1,20 +1,21 @@
 import React from 'react';
-import { View } from 'react-native';
-import { Provider as ThemeProvider } from 'react-native-paper';
-import { createTheme } from '~/theme';
+import { NativeBaseProvider, View } from 'native-base'
+
+import {customTheme} from '~/theme'
+
 import './icons.css'
 
 export const storyLayout = {
   decorators: [
-    (Story) => (
+    Story => (
       <View style={{ padding: '1rem' }}>
-        <ThemeProvider theme={createTheme('light')}>
+        <NativeBaseProvider theme={customTheme}>
           <Story />
-        </ThemeProvider>
+        </NativeBaseProvider>
       </View>
     )
   ],
   parameters: {
-    layout: 'centered',
-  },
-};
+    layout: 'centered'
+  }
+}

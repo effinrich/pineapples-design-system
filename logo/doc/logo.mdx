@@ -1,0 +1,26 @@
+import React from 'react';
+import { mdx } from '@mdx-js/react';
+import { Playground } from '@divriots/dockit-react/playground';
+import { Layout } from '~/layout';
+
+import { Logo } from '../src/index'
+
+export default Layout;
+
+# Logo
+
+Logo is for easily managing and resizing the Vatom logo.
+
+## Usage
+
+```tsx
+import * as React from 'react';
+import { Logo } from '@pineapples/ui/Logo';
+
+const MyComponent = () => <Logo size="sm" />;
+```
+
+<Playground
+  scope={{ Logo }}
+  code={`<Logo size="sm" />`}
+/>
