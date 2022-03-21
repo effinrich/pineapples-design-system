@@ -10,8 +10,6 @@ export interface ImageProps {
   size: 'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl'
 }
 
-export const Logo = ({ size = 'sm', ...props }: ImageProps) => {
-  return <Image source={imageAssetSource} size={size} {...props} />
-}
+export const Logo = ({ size = 'sm', ...props }: ImageProps) => <Image source={imageAssetSource} size={size} {...props} />
 
 export default Logo
