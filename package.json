@@ -1,10 +1,14 @@
 {
   "name": "@pineapples/ui",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A react-native-paper based design system as a starter kit for Backlight",
   "license": "MIT",
   "type": "module",
   "homepage": "{{ homepage }}",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/effinrich/pineapples-design-system.git"
+  },
   "scripts": {
     "serve": "npx backlight@latest serve hX0IVqflUk3KCEFAepAn --open"
   },
