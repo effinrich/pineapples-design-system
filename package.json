@@ -1,6 +1,6 @@
 {
-  "name": "@pineapples/ui",
-  "version": "2.0.13",
+  "name": "ui",
+  "version": "2.0.14",
   "description": "A react-native-paper based design system as a starter kit for Backlight",
   "license": "MIT",
   "type": "module",
