@@ -38,7 +38,7 @@
           "typography"
         ]
       ],
-      ["dockit", ["layout", "showcases"]]
+      ["dockit", ["layout", "showcases", "utils"]]
     ]
   }
 }
