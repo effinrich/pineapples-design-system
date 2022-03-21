@@ -23,7 +23,7 @@
           "helper-text",
           "icon-button",
           "list",
-          "logoSVG",
+          "logo",
           "menu",
           "modal",
           "progress-bar",
@@ -38,7 +38,7 @@
           "typography"
         ]
       ],
-      ["dockit", ["layout", "showcases"]]
+      ["dockit", ["layout", "showcases", "utils", "assets"]]
     ]
   }
 }
