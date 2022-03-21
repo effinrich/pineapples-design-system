@@ -1,1 +1,1 @@
-export { Banner } from 'react-native-paper';
+export { Banner } from 'react-native-paper'
