@@ -1,8 +1,8 @@
 import React from 'react';
-import { Text } from '@divriots/starter-origami/typography';
-import { Card } from '@divriots/starter-origami/card';
-import { Button } from '@divriots/starter-origami/button';
-import { storyLayout } from '@divriots/starter-origami/layout';
+import { Text } from '@effinrich/ui/typography';
+import { Card } from '@effinrich/ui/card';
+import { Button } from '@effinrich/ui/button';
+import { storyLayout } from '@effinrich/ui/layout';
 
 export default storyLayout;
 

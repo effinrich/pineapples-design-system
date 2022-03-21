@@ -1,6 +1,6 @@
 import React from 'react';;
-import { IconButton } from '@divriots/starter-origami/icon-button';
-import { storyLayout } from '@divriots/starter-origami/layout';
+import { IconButton } from '@effinrich/ui/icon-button';
+import { storyLayout } from '@effinrich/ui/layout';
 
 export default storyLayout;
 

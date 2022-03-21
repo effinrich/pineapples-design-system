@@ -1,7 +1,7 @@
 {
   "name": "@effinrich/ui",
-  "version": "2.0.15",
-  "description": "A react-native-paper based design system as a starter kit for Backlight",
+  "version": "2.0.16",
+  "description": "A react-native-paper based design system for Vatom Inc",
   "license": "MIT",
   "type": "module",
   "homepage": "{{ homepage }}",

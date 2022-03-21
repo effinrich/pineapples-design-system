@@ -1,6 +1,6 @@
 import React from 'react';
-import { DataTable } from '@divriots/starter-origami/data-table';
-import { storyLayout } from '@divriots/starter-origami/layout';
+import { DataTable } from '@effinrich/ui/data-table';
+import { storyLayout } from '@effinrich/ui/layout';
 
 export default storyLayout;
 

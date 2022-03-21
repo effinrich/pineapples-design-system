@@ -1,6 +1,6 @@
 import React from 'react';;
-import { ToggleButton } from '@divriots/starter-origami/toggle-button';
-import { storyLayout } from '@divriots/starter-origami/layout';
+import { ToggleButton } from '@effinrich/ui/toggle-button';
+import { storyLayout } from '@effinrich/ui/layout';
 
 export default storyLayout;
 

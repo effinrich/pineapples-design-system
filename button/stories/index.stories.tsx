@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from '@divriots/starter-origami/button';
-import { storyLayout } from '@divriots/starter-origami/layout';
+import { Button } from '@effinrich/ui/button';
+import { storyLayout } from '@effinrich/ui/layout';
 
 export default storyLayout;
 

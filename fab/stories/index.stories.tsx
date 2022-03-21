@@ -1,6 +1,6 @@
 import React from 'react';;
-import { FAB } from '@divriots/starter-origami/fab';
-import { storyLayout } from '@divriots/starter-origami/layout';
+import { FAB } from '@effinrich/ui/fab';
+import { storyLayout } from '@effinrich/ui/layout';
 
 export default storyLayout;
 

@@ -1,8 +1,8 @@
 import React from 'react';;
 import { View } from 'react-native';
-import { TextInput } from '@divriots/starter-origami/text-input';
-import { HelperText } from '@divriots/starter-origami/helper-text';
-import { storyLayout } from '@divriots/starter-origami/layout';
+import { TextInput } from '@effinrich/ui/text-input';
+import { HelperText } from '@effinrich/ui/helper-text';
+import { storyLayout } from '@effinrich/ui/layout';
 
 export default storyLayout;
 

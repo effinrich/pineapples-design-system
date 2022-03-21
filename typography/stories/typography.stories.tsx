@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Text, Title, Subheading, Paragraph, Headline, Caption } from '@divriots/starter-origami/typography';
-import { storyLayout } from '@divriots/starter-origami/layout';
+import { Text, Title, Subheading, Paragraph, Headline, Caption } from '@effinrich/ui/typography';
+import { storyLayout } from '@effinrich/ui/layout';
 
 export default storyLayout;
 

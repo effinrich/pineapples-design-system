@@ -1,10 +1,10 @@
 import React from 'react';
-import { Menu } from '@divriots/starter-origami/menu';
+import { Menu } from '@effinrich/ui/menu';
 import { View } from 'react-native';
 import { Divider, Provider } from 'react-native-paper';
-import { Button } from '@divriots/starter-origami/button';
+import { Button } from '@effinrich/ui/button';
 
-import { storyLayout } from '@divriots/starter-origami/layout';
+import { storyLayout } from '@effinrich/ui/layout';
 
 export default storyLayout;
 

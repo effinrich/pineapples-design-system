@@ -1,4 +1,4 @@
-import { createTheme } from '@divriots/starter-origami/theme';
+import { createTheme } from '@effinrich/ui/theme';
 
 export const light = () => createTheme('light');
 

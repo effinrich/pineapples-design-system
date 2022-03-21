@@ -13,7 +13,7 @@
     "outDir": "./dist",
     "paths": {
       "~/*": ["*"],
-      "@divriots/starter-origami/*": ["*"]
+      "@effinrich/ui/*": ["*"]
     }
   }
 }

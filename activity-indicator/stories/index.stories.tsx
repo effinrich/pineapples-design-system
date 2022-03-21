@@ -1,6 +1,6 @@
 import React from 'react'
-import { ActivityIndicator } from '@divriots/starter-origami/activity-indicator'
-import { storyLayout } from '@divriots/starter-origami/layout'
+import { ActivityIndicator } from '@effinrich/ui/activity-indicator'
+import { storyLayout } from '@effinrich/ui/layout'
 
 export default storyLayout
 
