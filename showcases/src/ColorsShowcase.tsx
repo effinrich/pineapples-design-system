@@ -30,7 +30,7 @@ export const ColorsShowcase = ({
   colorScheme: 'light' | 'dark';
 }) => {
   const colors = colorScheme === 'light' ? light : dark;
-
+  console.log(colorScheme)
   return (
     <View style={styles.container as ViewStyle}>
       {Object.entries(colors).map(([caption, color]) => (
